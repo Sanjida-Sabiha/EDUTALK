@@ -170,9 +170,6 @@
                   <!---Con Password---->
 
 
-
-
-
     		<!---Gender----->
     		<div class="box radio">
           <label for="gender" class="fl fontLabel"> Gender: </label>

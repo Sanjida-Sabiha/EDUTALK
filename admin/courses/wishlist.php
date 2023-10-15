@@ -29,9 +29,9 @@ Session_start();
         <div class="container">
             <div class="header-left">
                 <ul>
-                    <li><a href="student-profile.html"><i class="fa-solid fa-user"></i>my account</a></li>
-                    <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i>wishlist</a></li>
-                    <li><a href=""><i class="fa-solid fa-right-to-bracket"></i>log in</a></li>
+                    <li><a href="student-profile.php"><i class="fa-solid fa-user"></i>my account</a></li>
+                    <li><a href="wishlist.php"><i class="fa-solid fa-heart"></i>wishlist</a></li>
+                    <li><a href="logout.php"><i class="fa-solid fa-right-to-bracket"></i>log out</a></li>
                 </ul>
             </div>
         </div>
@@ -43,7 +43,7 @@ Session_start();
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.html">a b c</a>
+                    <a href="index.html">eduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>
@@ -107,9 +107,9 @@ Session_start();
                VALUES('$message')";
                   $insert_rows=$db->catinsert($insert);
                   if($insert_rows){
-                    echo '<script>alert("Text Send")</script>';
+                    echo '<script>alert("Text Sent!! We will reply you with an email")</script>';
                   }else{
-                    echo '<script>alert("Text Not Send")</script>';
+                    echo '<script>alert("Text Not Sent")</script>';
                   
               }
               

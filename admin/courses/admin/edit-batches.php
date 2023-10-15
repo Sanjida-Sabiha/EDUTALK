@@ -85,7 +85,7 @@ $("#suggesstion-box").hide();
                            batch_name='$batch_name'			
                            WHERE id = $editid";
                           
-                                        $updateCat=$db->update($updatequery);
+                            $updateCat=$db->update($updatequery);
                            if($updateCat){
                              echo "Batch Update Successful";
                            }else{
@@ -99,9 +99,7 @@ $("#suggesstion-box").hide();
       
       ?> 
                      
-          
-                 
-							  
+          	  
                   	
 					  <?php
 				   //select for edit

@@ -67,7 +67,7 @@ Session_start();
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">EduTalk</a>
                 </div>
                <div class="menu">
                     <ul>
@@ -151,11 +151,11 @@ Session_start();
                                      <td><?php echo $result['noticeDate']; ?></td>
                                      <td><a download="<?php echo $result['notice_board']; ?>" href="admin/<?php echo $result['notice_board']; ?>">download</a></td>
 					            	 
-					                       </tr>
-					                     </tr>			
-								       <?php }}?>			 						
-  					               </tr>					
-								</table>
+					                </tr>
+					            </tr>			
+						<?php }}?>			 						
+  					</tr>					
+				</table>
             </div>
         </div>
     </section>

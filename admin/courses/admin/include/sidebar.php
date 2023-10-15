@@ -57,7 +57,7 @@
 								
 							
 								?> 
-								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>IELTS Modules</a>
+								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>CSE Modules</a>
 								</li>
 								<?php } ?>
 
@@ -65,7 +65,7 @@
 								
 							
 								?> 
-								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>IELTS Modules</a>
+								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>EEE Modules</a>
 								</li>
 								<?php } ?>
 
@@ -73,7 +73,7 @@
 								
 							
 								?> 
-								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>IELTS Modules</a>
+								<li><a href="ielts-modules.php"><i class="menu-icon icon-tasks"></i>CIVIL Modules</a>
 								</li>
 								<?php } ?>
 
@@ -112,7 +112,7 @@
 							
 								?>
 								<li>
-								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i>Spoken English Modules</a>
+								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i> English Modules</a>
 								</li>
 								<?php } ?>
 								
@@ -121,7 +121,7 @@
 							
 								?>
 								<li>
-								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i>Spoken English Modules</a>
+								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i>English Modules</a>
 								</li>
                               <?php } ?>								
 
@@ -130,7 +130,7 @@
 							
 								?>
 								<li>
-								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i>Spoken English Modules</a>
+								 <a href="spoken-english.php"><i class="menu-icon icon-tasks"></i> English Modules</a>
 								</li>
                                 <?php } ?>								
 

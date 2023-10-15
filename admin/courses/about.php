@@ -54,7 +54,7 @@ Session_start();
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.html">a b c</a>
+                    <a href="index.html">EduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>

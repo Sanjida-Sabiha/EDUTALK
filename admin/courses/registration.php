@@ -23,7 +23,7 @@ include('library/database.php');
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">eduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>
@@ -51,7 +51,9 @@ include('library/database.php');
         </div>
     </header>
     <!-- Header Area End -->
-    
+    <?
+    include('registration/StudentSendEmail.php');
+    ?>
     <!-- Registration Banner Area Start -->
     <section class="banner-area" style="background-image: url(assets/img/banner1.jpg);">
         <div class="container">
@@ -60,48 +62,45 @@ include('library/database.php');
 				
 				 <h4 style="color:black;text-align:center">if registration complete?<a href="login.php"> login here</a><h4>
                 <!-- Select students start--> 
-                
-
-                <form action="registration.php" method="post">
-                    <h1>
-                        
-                    <?php 
+                <?php 
 		
 				   
-                                            
-                                    $db=new database();
-                                   
-                                    if(isset($_POST['submit'])){
-                                        $student_name=$_POST['student_name'];
-                                        $email=$_POST['email'];    
-                                        $mobile=$_POST['mobile'];					   
-                                        $course_id=$_POST['course_id'];    
-                                        $password=$_POST['password'];
-                                   
-                            $query="insert into students(student_name,email,course_id,mobile,password,status)
-                            values(' $student_name','$email','$course_id','$mobile','$password','pending')";
-                            $insert_students=$db->catinsert($query);
+                                                            
+                        $db=new database();
+                    
+                        if(isset($_POST['submit'])){
+                            $student_name=$_POST['student_name'];
+                            $email=$_POST['email'];    
+                            $mobile=$_POST['mobile'];					   
+                            $course_id=$_POST['course_id'];    
+                            $password=$_POST['password'];
+                            $code = rand();
 
-                            if($insert_students){
-                                echo "<script>alert('registration success,waiting for confirmation')</script>";
-                            }else{
-                                echo "<script>alert('Somthing went wrong')</script>";
-                            }
                             
-                            }
+                $query="insert into students(student_name,email,course_id,mobile,password,status)
+                values(' $student_name','$email','$course_id','$mobile','$password','unregistered')";
+                $insert_students=$db->catinsert($query);
 
-                          
-                        
+                if($insert_students){
+                    echo "<script>alert('registration success,waiting for confirmation')</script>";
+                }else{
+                    echo "<script>alert('Somthing went wrong')</script>";
+                }
+
+                }
 
 
 
 
 
-                            ?>
 
 
 
-                    </h1>
+?>
+
+
+                <form action="" method="post">
+                  
 
                
                     <input type="text" name="student_name" placeholder="Name" value=""/>

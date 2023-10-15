@@ -112,10 +112,14 @@ img{
 }
 .logo{}
 .logo a {
+    text-transform: lowercase !important;
     font-size: 35px;
-    text-transform: uppercase;
     color: white;
     font-weight: 700;
+}
+.logo a span{
+    display: inline-block;
+    text-transform: capitalize;
 }
 .menu {
     display: flex;
@@ -950,7 +954,7 @@ img{
 .contact-form p {
     padding-bottom: 20px;
     font-size: 18px;
-    color: ;
+    
 }
 .contact-text{}
 .contact-text form {}

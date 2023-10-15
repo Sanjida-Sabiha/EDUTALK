@@ -46,8 +46,8 @@ $("#suggesstion-box").hide();
 							<div class="module-head">
 								<h3>Insert Courses</h3>
 							</div>
-									<?php 
-				   $db=new database();
+					<?php 
+				 
 				   
                  
                    $db=new database();

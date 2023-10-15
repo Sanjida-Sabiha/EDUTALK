@@ -27,7 +27,7 @@ Session:: init();
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">EduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>
@@ -73,7 +73,7 @@ Session:: init();
 				   Session::set("email",$value['email']);
 				   Session::set("password",$value['password']);
 				   Session::set("usertype",$value['usertype']);
-				   Session::set("status",$value['Updated']);
+				   Session::set("status",$value['Registered']);
                    Session::set("Course_Name",$value['Course_Name']);
                    Session::set("student_name",$value['student_name']);
                    Session::set("mobile",$value['mobile']);				   

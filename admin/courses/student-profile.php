@@ -31,12 +31,7 @@ include('library/database.php');
 							Session::destroy();
 						
 						}
-						
-						
-						
-						
 					
-
 					?>
 
     <!-- Header-Top Area Start -->
@@ -58,7 +53,7 @@ include('library/database.php');
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">eduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>

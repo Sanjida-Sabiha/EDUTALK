@@ -66,7 +66,7 @@ Session_start();
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">EduTalk</a>
                 </div>
                 <div class="menu">
                     <ul>

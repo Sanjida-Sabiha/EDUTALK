@@ -15,7 +15,7 @@ include('library/database.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aims</title>
+    <title>eduTalk</title>
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- Main CSS -->
@@ -62,7 +62,7 @@ include('library/database.php');
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.php">a b c</a>
+                    <a href="index.php">edu<span>Talk</span></a>
                 </div>
                 <div class="menu">
                     <ul>
@@ -154,7 +154,7 @@ include('library/database.php');
                         <span>get to know us</span>
                         <h1>grow your skills learn with us from anywhere</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, optio dolorem dicta error ab repudiandae sint voluptates quisquam beatae in, exercitationem, quas quis numquam voluptas. Ipsa saepe quo aspernatur enim?</p>
-                        <a href="about.html">details</a>
+                        <a href="about.php">details</a>
                     </div>
                     <div class="about-img">
                         <div class="single-img">

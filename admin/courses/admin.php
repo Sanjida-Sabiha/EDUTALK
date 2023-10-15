@@ -46,14 +46,7 @@ Session:: init();
 				echo   "<script>alert('user name or password not match or wait for admin confirmation')</script>";
 			  }
 		 }   
-			  
-			  
-			 
-			  
-			 
-			 
-			 
-			 
+			
 	 
 	
 	?>
